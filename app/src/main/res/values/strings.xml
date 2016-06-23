@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">BusTracker</string>
+
+    <string name="button_toggle">BusTracker</string>
+
+    <string name="text_gps_status">Status do GPS desconhecido</string>
+    <string name="text_gps_status_enabled">GPS habiltado</string>
+    <string name="text_gps_status_disabled">Aviso! GPS desabilitado!</string>
+
+    <string name="text_network_status">Status da rede desconhecido</string>
+    <string name="text_network_status_enabled">Com acesso a internet</string>
+    <string name="text_network_status_disabled">Aviso! Sem acesso a internet!</string>
+
+    <string name="text_legend_url">http://wwwlogpro.xyz/bus/</string>
+
+    <string name="invalid_number">Número inválido</string>
+
+    <string name="pref_gps_updates">Atualização do GPS (secundos)</string>
+    <string name="pref_gps_updates_summary">Atualizar posição a cada.. (Minimo 5 segundos)</string>
+    <string name="pref_gps_updates_too_low">Desculpe, esse valor é muito baixo.</string>
+    <string name="pref_gps_updates_too_high">Desculpe, esse valor é muito alto</string>
+    <string name="pref_battery_drain">Valores menores que 30 segundos gasta muita bateria</string>
+
+    <string name="pref_max_run_time">Tempo máximo de execução (horas)</string>
+    <string name="pref_max_run_time_summary">(Padrão 8 horas)</string>
+    <string name="pref_max_run_time_too_low">Valor invalido</string>
+
+    <string name="pref_timestamp">Enviar timestamp a cada atualização</string>
+    <string name="pref_timestamp_summary">null</string>
+
+    <string name="text_running_since">Executando desde</string>
+    <string name="text_stopped_on">Parou em</string>
+    <string name="text_killed">O sistema matou a aplicação</string>
+
+    <string name="toast_service_running">Habilitado</string>
+    <string name="toast_service_stopped">Desabilitado</string>
+    <string name="toast_prefs_restart">Reinicie a aplicação se estiver travando</string>
+
+    <string name="waiting_for_gps_data">Aguardando localização do GPS</string>
+    <string name="last_location_sent_at">Última localização enviada as</string>
+    <string name="http_request_ok">OK</string>
+    <string name="http_request_failed">erro</string>
+
+    <string name="error_malformed_url">URL inválida</string>
+    <string name="error_unknown_host">Resposta desconhecida</string>
+    <string name="error_ssl">HTTPS problemas na conexão</string>
+    <string name="error_timeout">HTTP timeout</string>
+</resources>
